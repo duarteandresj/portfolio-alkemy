@@ -1,12 +1,16 @@
+//PARALLAX
 window.addEventListener("scroll", function () {
   let offset = window.scrollY;
   document.getElementById("home").style.backgroundPositionY =
     offset * -0.7 + "px";
   document.getElementById("about-me").style.backgroundPositionY =
     offset * 0.5 + "px";
-  document.getElementById("contact").style.backgroundPositionY =
-    offset * 0.5 + "px";
+  document.getElementById("contact").style.backgroundPositionY =offset * 0.5 + "px";
+  document.getElementById("resume").style.backgroundPositionY =offset * (0.5) + "px";
+
 });
+
+
 const $form = document.getElementById("form");
 const $btnEnviar = document.getElementById("btn-Enviar");
 $btnEnviar.addEventListener("click", event=> enviarFormulario(event));

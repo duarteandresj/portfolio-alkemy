@@ -75,6 +75,20 @@ h1 {
   transform: translateY(5px);
    transition: transform 1s ease-in-out;
 }
+#resume{
+background: var(--img-home) center/cover; 
+}  
+
+#resume .perfil{
+  border-radius: 30%;
+  height: 10rem;
+  margin: 0 auto;
+}
+.logo{
+  height: 3rem;
+}
+
+
 @media (min-width: 767px) {
   .navbar {
     height: 3rem;
