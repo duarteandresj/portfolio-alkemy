@@ -4,7 +4,7 @@
   --posy: #813772;
   --linear-gradient: linear-gradient(black, var(--ink));
   --img-home: url("https://cdn.pixabay.com/photo/2020/02/15/14/19/network-4851079_960_720.jpg");
-  --img-about:url("https://cdn.pixabay.com/photo/2016/11/30/12/16/question-mark-1872665_960_720.jpg")
+  --img-about:url("https://cdn.pixabay.com/photo/2016/11/30/12/16/question-mark-1872665_960_720.jpg");
 }
 /*Compensar navbar*/
 :target:before {
@@ -35,8 +35,11 @@ h1 {
 .color-posy {
   color: var(--posy);
 }
+.color-ink{
+  color: var(--ink);
+}
 #about-me{
-  background: var(--img-about) center/cover;
+  background: var(--img-about) center/cover , var(--linear-gradient);
 }
 #projects{
   background: var(--linear-gradient);
@@ -48,11 +51,35 @@ h1 {
   padding-top: .5rem;
 }
 
+.carousel-caption > a :hover ,footer a :hover {
+   color: var(--embers);
+   transform: scale3d(1.5, 1.5, 1.5) rotate(-360deg);
+   transition: transform .5s ease-in-out;
+}
+#contact {
+  background: var(--img-home) center/cover;
+}
+/* #contact h2{
+  text-shadow:
+  -1px -1px 0 white ,  
+   1px -1px 0 white,
+  -1px  1px 0 white,
+   1px  1px 0 white;
+} */
+#btn-Enviar{
+  background-color: var(--ink);
+  color: var(--embers);
+  border: 1px solid white;
+}
+#btn-Enviar:hover{
+  transform: translateY(5px);
+   transition: transform 1s ease-in-out;
+}
 @media (min-width: 767px) {
   .navbar {
     height: 3rem;
   }
-  #home,#about-me,#projects{
+  #home,#about-me,#projects,#contact{
     height: 100vh;
   }
 }
