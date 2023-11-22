@@ -88,6 +88,17 @@ background: var(--img-home) center/cover;
   height: 3rem;
 }
 
+.descarga-cv a{
+  background: var(--ink);
+  color: var(--embers);
+}
+.descarga-cv a:hover{
+  transform: scale(1.1);
+  background: var(--ink);
+  color:cyan ;
+  transition: transform 1s ease-in-out;
+}
+
 
 @media (min-width: 767px) {
   .navbar {

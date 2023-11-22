@@ -1,107 +1,205 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Duarte, Andrés</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- ROBOTO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio Duarte, Andrés</title>
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./assets/css/styles.css" />
-  <!-- ROBOTO -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
-  <!-- FONT AWESOME -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler color-posy"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav gap-5 ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white text-uppercase"
+                  aria-current="page"
+                  href="index.html"
+                  >Home <i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Resume and Cv -->
+      <div id="resume" class="container-fluid">
+        <div class="row text-white gap-2">
+          <h2 class="color-embers text-center fs-1">Duarte, Andrés</h2>
+          <div class="col-sm-4 text-end">
+            <img
+              class=" d-sm-block perfil"
+              src="https://cdn.pixabay.com/photo/2023/10/01/10/10/man-8287181_960_720.jpg"
+              alt="Imagen de persona"
+            />
 
-<body>
-  <header>
-    <nav class="navbar navbar-expand-sm">
-      <div class="container-fluid">
-        <button class="navbar-toggler color-posy" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav gap-5 ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link text-white text-uppercase" aria-current="page" href="index.html">Home <i
-                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
-          </ul>
+            <p><i class="fa-solid fa-cake-candles"></i> 29 Años</p>
+            <p>
+              <i class="fa-solid fa-location-dot"></i> Pte. Derqui, Pilar,
+              Buenos Aires.
+            </p>
+            <p><i class="fa-solid fa-mobile-screen"></i> (+54) 1160047575</p>
+            <p>
+              <a
+                target="_blank"
+                class="color-embers"
+                href="https://www.linkedin.com/in/duarteandresj/"
+                ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
+              >
+            </p>
+            <p>
+              <a
+                target="_blank"
+                class="color-embers"
+                href="mailto:duarteandresj@gmail.com"
+                ><i class="fa-regular fa-envelope"></i>
+                duarteandresj@gmail.com</a
+              >
+            </p>
+          </div>
+          <div class="col-sm-5 col fst-italic">
+            <h4>Formación y cursos</h4>
+            <ul>
+              <li>
+                <img
+                  class="logo"
+                  src="https://upload.wikimedia.org/wikipedia/commons/6/67/UTN_logo.jpg"
+                  alt="Logo utn"
+                />
+                <br />
+                UTN-FRGP<br />
+                Ingeniero eléctrico<br />
+                mar-2013 a may-2022
+              </li>
+              <li>
+                <img
+                  class="logo"
+                  src="https://app.aluracursos.com/assets/images/logos/logo-aluraespanhol.svg"
+                  alt="Logo Alura"
+                />
+                <br />
+                Programa ONE <br />Formación conjunta entre Oracle y Alura en
+                diseño web<br />
+                oct-2022 a feb-2023
+              </li>
+              <li>
+                <img
+                  class="logo"
+                  src="https://yt3.googleusercontent.com/4HM_-p_YCTbyHFdDKLOd2DPr8QvHePQcq9v4404vHP4ojUD5H9h0Cj8MYY0EAgFWxKocR2bGgQc=s176-c-k-c0x00ffffff-no-rj"
+                  alt="Logo Argentina Programa"
+                />
+                <br />
+                Argentina Programa <br />Plan nacional, federal e inclusivo de
+                formación en programación y software.<br />
+                nov-2020 a dic-2021
+              </li>
+            </ul>
+          </div>
+          <div class="col fst-italic">
+            <h4>Experiencia Profesional</h4>
+            <div class="experience">
+              <div class="text-uppercase fw-bold ms-3">Autobat</div>
+              <p>
+                Asistente de gerencia <br />
+                nov-2017 - Actualmente
+              </p>
+            </div>
+            <div class="experience">
+              <div class="text-uppercase fw-bold ms-3">Body health</div>
+              <p>
+                Operario de labotorio electrónico <br />
+                dic-2016 a oct-2017
+              </p>
+            </div>
+            <div class="experience">
+              <div class="text-uppercase fw-bold ms-3">
+                R.T Ingeniería Eléctrica
+              </div>
+              <p>
+                Pasante en departamento de compras <br />
+                feb-2012 a ago-2012
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="descarga-cv container-fluid text-center">
+          <a
+            type="button"
+            class="btn mt-1 mb-4 fw-bold"
+            href="./assets/cv/CV-DA-2023.pdf"
+            download="duarte-andres.pdf"
+          >
+            <i class="fa-solid fa-paperclip"></i> Download CV
+          </a>
         </div>
       </div>
-    </nav>
-  </header>
-  <main>
-    <!-- Resume and Cv -->
-    <div id="resume" class="container-fluid">
-      <div class="row text-white gap-2">
-        <h2 class="color-embers text-center fs-1 ">Duarte, Andrés</h2>
-        <div class="col text-end">
-          <img class="d-none d-sm-block perfil"
-            src="https://cdn.pixabay.com/photo/2023/10/01/10/10/man-8287181_960_720.jpg" alt="Imagen de persona">
-
-          <p><i class="fa-solid fa-cake-candles"></i> 29 Años</p>
-          <p><i class="fa-solid fa-location-dot"></i> Pte. Derqui, Pilar, Buenos Aires.</p>
-          <p><i class="fa-solid fa-mobile-screen"></i> (+54) 1160047575</p>
-          <p></i><a target="_blank" class="color-embers" href="https://www.linkedin.com/in/andres-duarte-8896b1197/"><i
-                class="fa-brands fa-linkedin"></i> LinkedIn</a></p>
+    </main>
+    <footer class="bg-dark color-posy text-center py-3">
+      <div class="container-fluid fst-italic">
+        <p class="mb-0">Desarrollado por <br />Duarte Andrés</p>
+        <div class="mt-2 d-flex gap-5 m-auto justify-content-center">
+          <a
+            href="https://www.linkedin.com/in/duarteandresj/"
+            target="_blank"
+            class="color-ink"
+          >
+            <i class="fab fa-linkedin fs-3"></i>
+          </a>
+          <a
+            href="https://github.com/duarteandresj"
+            target="_blank"
+            class="color-ink"
+          >
+            <i class="fab fa-github fs-3"></i>
+          </a>
         </div>
-        <div class="col fst-italic">
-          <h4> Formación y cursos</h4>
-          <ul>
-            <li> <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/6/67/UTN_logo.jpg"
-                alt="Logo utn"> <br>
-              UTN-FRGP<br> Ingeniero eléctrico<br> mar-2013 a may-2022</li>
-            <li>
-              <img class="logo" src="https://app.aluracursos.com/assets/images/logos/logo-aluraespanhol.svg"
-                alt="Logo Alura"> <br> Programa ONE
-              <br>Formación conjunta entre Oracle y Alura en diseño web<br> oct-2022 a feb-2023
-
-            </li>
-            <li>
-              <img class="logo"
-                src="https://yt3.googleusercontent.com/4HM_-p_YCTbyHFdDKLOd2DPr8QvHePQcq9v4404vHP4ojUD5H9h0Cj8MYY0EAgFWxKocR2bGgQc=s176-c-k-c0x00ffffff-no-rj"
-                alt="Logo Argentina Programa"> <br> Argentina Programa
-              <br>Plan nacional, federal e inclusivo de formación en programación y software.<br> nov-2020 a dic-2021
-            </li>
-          </ul>
-        </div>
-        <div class="col">
-          <h4> Experiencia Profesional</h4>
-
-        </div>
-
+        <p class="mt-2 mb-0 fs-6">&copy; 2023</p>
       </div>
+    </footer>
 
-
-    </div>
-  </main>
-  <footer class="bg-dark color-posy text-center py-3">
-    <div class="container-fluid fst-italic">
-      <p class="mb-0 ">Desarrollado por <br>Duarte Andrés</p>
-      <div class="mt-2 d-flex gap-5 m-auto justify-content-center">
-        <a href="https://www.linkedin.com/in/andres-duarte-8896b1197/" target="_blank" class="color-ink">
-          <i class="fab fa-linkedin fs-3"></i>
-        </a>
-        <a href="https://github.com/duarteandresj" target="_blank" class="color-ink">
-          <i class="fab fa-github fs-3"></i>
-        </a>
-      </div>
-      <p class="mt-2 mb-0 fs-6">&copy; 2023</p>
-    </div>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-  <script src="./assets/js/script.js"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
 </html>
